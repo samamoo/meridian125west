@@ -5,7 +5,13 @@ export default function Home () {
   return(
     <main className="home">
       <section className="home-one">
-        <h1>MERIDIAN 125 WEST CULTIVATION</h1>
+        <div className="home-one__logo">
+          <img src="/images/23.png" alt="logo"/>
+        </div>
+        <div className="home-one__soon">
+          <h1>B.C Craft Cannabis</h1>
+          <h6>Coming Soon!</h6>
+        </div>
       </section>
       <section className="home-two">
         <section className="home-two__text">
@@ -15,12 +21,17 @@ export default function Home () {
           </div>
         </section>
         <section className="home-two__image">
-          <img src="images/meridian125building.jpg" alt="facility image"/>
+          <img src="images/meridian125building.jpg" alt="facility"/>
         </section>
       </section>
       <section className="home-three">
         <div className="home-three__contactme">
-          <h1>CONTACT US</h1>
+          <div className="home-three__form-container">
+            <h1>CONTACT US</h1>
+          </div>
+          <div className="home-three__image">
+            <img src="images/gulf-islands-bc.jpeg" alt="bc gulf islands"/>
+          </div>
         </div>
 
       </section>

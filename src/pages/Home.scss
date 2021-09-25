@@ -1,25 +1,50 @@
-.home {
-  min-height: calc(100vh - 80px);
-  // background-color:#86A4BF;
-  padding-top: 80px;
-  margin-left: 2%;
-  margin-right: 2%;
-}
 
-.home-one {
-  // background-color: red;
-  width: 100%;
-  min-height: calc(100vh - 80px);
+
+.home {
+  font-family: 'Crimson Text', serif;
+  height: 100%;
+  padding-top: 80px;
+
 }
-.home-two {
-  background-color: #CED1D7;
-  width: 100%;
-  height: 100vh;
+.home-one {
+  width: 80%;
+  height: 100%;
+  margin: 5% auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  .home-one__logo {
+    width: 50%;
+    height: 100%;
+    img {
+      opacity: 0.9;
+      width: 100%;
+      height: 100%;
+      // object-fit: cover;
+    }
+  }
+  .home-one__soon {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    width: 50%;
+    height: 100%;
+    font-size: 24pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.home-two {
+  
+  width: 100%;
+  // height: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
 }
 .home-two__text {
+  background-color: #E1E3E6;
   width: 50%;
   height: 100%;
   font-size: 16pt;
@@ -27,11 +52,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.home-two__p {
-  padding-left: 80px;
-  padding-right: 80px;
-  // display: flex;
+  h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 26pt;
+    font-weight: 400;
+  }
+  .home-two__p {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: 400;
+    overflow: hidden;
+  }
 }
 .home-two__image {
   background-color: white;
@@ -45,9 +76,53 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 50% 50%;
 }
 .home-three {
+  width: 90%;
+  height: 100%;
+  background-color: #E1E3E6;
+  margin: 5% auto;
+}
+.home-three__contactme {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home-three__form-container {
+  width: 50%;
+  height: 100%;
+  font-size: 16pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-family:'Fira Sans', 'sans-serif';
+    font-weight: 400;
+  }
+}
+.home-three__image {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+}
+.home-three__image img {
+  opacity: 0.9;
   width: 100%;
   height: 100%;
-  background-color: yellowgreen;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .home-two__p {
+    font-size: 14pt;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .home-two__p {
+    font-size: 12pt;
+  }
 }
