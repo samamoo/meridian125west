@@ -7,7 +7,7 @@ export default function Navigation() {
       <a href="/" className="navigation-item">Home</a>
       <a href="#" className="navigation-item">Our Story</a>
       <a href="/news" className="navigation-item">News & Updates</a>
-      <a href="#" className="navigation-item">Contact Us</a>
+      <a href="/contact" className="navigation-item">Contact Us</a>
     </section>
   )
 };
