@@ -3,7 +3,10 @@ import './Contact.scss';
 
 export default function Contact () {
 
+
   // OnClick function for form submit
+  // if submitted is false 
+  // Add error checking
 
 
   return(
@@ -29,6 +32,12 @@ export default function Contact () {
         </form>
       </div>
       {/* Google map of Powell River */}
+      {/* Coming Soon */}
+      <div class="overlay"></div>
+      <div id="coming-soon">
+          <h1>COMING SOON!</h1>
+      </div>
+
     </main>
   )
 }
