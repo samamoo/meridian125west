@@ -2,4 +2,66 @@
   padding-top: 80px;
   width: 100%;
   height: calc(100vh - 80px);
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 50%;
+  h1 {
+    font-size: 40pt;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.name-email {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.form-name {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+}
+// #name, #email {
+//   width: 100%;
+// }
+
+#name, #email, #subject, #message{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 15px;
+  &:hover {
+    border: 1px solid black;
+  }
+  &:focus-visible {
+    outline: none;
+  }
+}
+input {
+  margin-bottom: 15px;
+}
+label {
+  visibility: hidden;
+}
+
+#submit-button {
+  width: 100%;
+  margin: 15px;
+  padding: 15px;
+  color: white;
+  background-color: black;
+}
+
+::placeholder {
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
