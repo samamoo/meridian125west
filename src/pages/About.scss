@@ -1,0 +1,50 @@
+.about {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 80px;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_banner {
+  width: 100%;
+  height: 580px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.about_text {
+  text-align: center;
+  margin: 80px;
+
+  h1 {
+    font-size: 40pt;
+  }
+}
+
+#about_contact {
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0%;
+  margin: 50px;
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+  }
+  
+  &:hover {
+    background-color: black;
+    transition: 0.5s;
+    a {
+      color: white;
+    }
+  }
+}
