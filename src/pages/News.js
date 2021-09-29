@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { fadeIn } from '../animations/gsap';
 import './News.scss';
 
 export default function News () {
+
+  useEffect(() => {
+    fadeIn("header");
+  })
   return(
     <main className="news">
       <header>

@@ -1,13 +1,31 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import { useIntersection } from 'react-use';
+import { fadeIn, fadeOut } from '../animations/gsap';
 import './About.scss';
 
 export default function About () {
+  let sectionRef = useRef(null);
+
+  const intersection = useIntersection( sectionRef, {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.5
+  });
+
+  // intersection && intersection.intersectionRatio < 0.5
+  // ? fadeOut(".about_text")
+  // : fadeIn(".about_text");
+
+  if (intersection && intersection.intersectionRatio > 0.5) {
+    fadeIn(".about_text");
+  } 
+
   return(
     <main className="about">
       <div className="about_banner">
         <img src="/images/cannabis_flower.jpeg" alt="closeup of cannabis flower"/>
       </div>
-      <div className="about_text">
+      <div className="about_text" ref={sectionRef}>
         <h1>Our Story</h1>
         <p>Nestled along the Pacific Northwest Coast you will find our cultivation facility located within Powell River. 
         <br/>
