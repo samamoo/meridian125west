@@ -31,6 +31,7 @@
 
 #about_contact {
   background-color: white;
+  cursor: pointer;
   padding: 15px;
   padding-left: 20px;
   padding-right: 20px;
@@ -48,5 +49,11 @@
     a {
       color: white;
     }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .about_text {
+    width: 780px;
   }
 }
