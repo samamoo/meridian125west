@@ -42,9 +42,10 @@
   height: 800px;
   display: flex;
   align-items: center;
+  background-color: #E1E3E6;
 }
 .home-two__text {
-  background-color: #E1E3E6;
+  opacity: 0;
   width: 50%;
   height: 100%;
   font-size: 16pt;

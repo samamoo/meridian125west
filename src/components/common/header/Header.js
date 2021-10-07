@@ -9,7 +9,7 @@ export default function Header() {
         <section className="header-top">
           <section className="header-top__logo">
             <a href="/" className="header-logo">
-              <img src="/images/23.png" alt="logo"/>
+              <img src="/images/img_placeholder.png" alt="logo"/>
             </a>
           </section>
           <section className="header-top__navbar">
