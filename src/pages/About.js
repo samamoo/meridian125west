@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { useIntersection } from 'react-use';
-import { fadeIn, fadeOut } from '../animations/gsap';
+import { fadeIn } from '../animations/gsap';
 import './About.scss';
 
 export default function About () {
