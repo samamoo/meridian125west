@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contact.scss';
 
 export default function Contact () {
+
+  const [ contact, setContact ] = useState( {
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
 
 
   // OnClick function for form submit
@@ -32,7 +39,6 @@ export default function Contact () {
         </form>
       </div>
       {/* Google map of Powell River */}
-      {/* Coming Soon */}
       <div class="overlay"></div>
       <div id="coming-soon">
           <h1>COMING SOON!</h1>
