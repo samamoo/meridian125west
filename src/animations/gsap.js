@@ -1,7 +1,5 @@
 import { gsap } from 'gsap';
 
-const tl = gsap.timeline();
-
 const fadeIn = (element) => {
   gsap.to(element, 1, {
     opacity: 1,
