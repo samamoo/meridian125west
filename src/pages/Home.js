@@ -19,19 +19,19 @@ export default function Home () {
   return(
     <main className="home">
       <section className="home-one">
-        <div className="home-one__logo">
-          <img src="/images/img_placeholder.png" alt="logo"/>
+        <div className="home-one__hero">
+          <img src="/images/IMG_B6D2BD79C9CF-1.jpeg" alt="logo"/>
         </div>
         <div className="home-one__soon">
-          <h1>B.C Craft Cannabis</h1>
+          <h1>Meridian 125W Cultivation Ltd.</h1>
           <h6>Coming Soon!</h6>
         </div>
       </section>
       <section className="home-two">
         <section className="home-two__text" ref={sectionRef}>
-          <h1>WHO WE ARE</h1>
+          <h1>A Little About Us</h1>
           <div className="home-two__p">
-            <p>Our story is borne on the Pacific West Coast. Our cultivation location uniquely takes fresh clean protected waters from Lake Powell in the niche corridor that connects and flows into the Salish Sea in between 125W and 124W.</p><p> Take a short boat ride from our operations into the middle of the Salish Sea and you will find one of the smallest parks which is highly abundant with life above and below the ocean waves. It is called Mitlenatch Island which means "calm waters all around" and it is exactly at 125W. It is the centre of our inspiration for our coastal cultivation and harvesting: Abundant, deep, rich and full of life with calm and peace all around.</p>
+            <p>Located on the traditional and unceded territory of the Tla’amin First Nations in the community of Powell River, Meridian 125W is a small group of hard working people with great experience in Canadian cannabis who are building something new.</p><p> We take our inspiration from nearby Mitlenatch Island, a small nature provincial park directly on the 125th Meridian West, whose name means “calm waters all around” in the Coast Salish language.</p>
           </div>
         </section>
         <section className="home-two__image">
@@ -41,7 +41,8 @@ export default function Home () {
       <section className="home-three">
         <div className="home-three__contactme">
           <div className="home-three__form-container">
-            <h1>CONTACT US</h1>
+            <h1>Contact Us</h1>
+            <h5>info@meridian125w.com</h5>
           </div>
           <div className="home-three__image">
             <img src="images/gulf-islands-bc.jpeg" alt="bc gulf islands"/>
