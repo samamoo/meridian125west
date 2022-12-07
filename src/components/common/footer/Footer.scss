@@ -8,6 +8,10 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+
+  a, a:visited{
+    color: white;
+  }
 }
 .social-icon {
   padding: 5px;
