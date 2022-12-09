@@ -21,10 +21,10 @@ export default function Home () {
       <section className="home-one">
         <div className="home-one__hero">
           <img src="/images/IMG_B6D2BD79C9CF-1.jpeg" alt="logo"/>
-        </div>
-        <div className="home-one__soon">
-          <h1>Meridian 125W Cultivation Ltd.</h1>
-          <h6>Coming Soon!</h6>
+          <div className="home-one__soon">
+            <h1>Meridian 125W Cultivation Ltd.</h1>
+            <h6>Coming Soon!</h6>
+          </div>
         </div>
       </section>
       <section className="home-two">
