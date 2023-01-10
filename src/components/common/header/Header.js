@@ -9,7 +9,7 @@ export default function Header() {
         <section className="header-top">
           <section className="header-top__logo">
             <a href="/" className="header-logo">
-              <img src="/images/logo_placeholder.png" alt="logo"/>
+              <img src="/images/M125W-Logo_Horizontal_Colour_RGB.png" alt="logo"/>
             </a>
           </section>
           <section className="header-top__navbar">
